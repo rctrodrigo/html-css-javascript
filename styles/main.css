@@ -163,6 +163,27 @@
   color: var(--alt-color);
 }
 
+/* Footer Section Styles */
+
+footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+}
+
+#copyright {
+  margin: 1rem;
+  font-weight: 200;
+}
+
+@media (max-width: 28.75em) {
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
 
 /* Media Queries */
 
